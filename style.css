@@ -1,0 +1,39 @@
+/*index*/
+
+body {
+	background-image: url(assets/img/madu.png);
+	background-position: 0 45px;
+}
+.starter-template {
+	background-color: rgba(0,0,0,.5);
+	text-align: justify;
+	color: white;
+	font-family: times new roman;
+}
+footer {
+	background-color: rgba(0,18,40.8);
+	text-align: justify;
+	color: white;
+	font-family: times new roman;
+}
+ 
+.media a {
+	color: white;
+	font-family:calibri;
+	padding-left: 4px;
+}
+i {
+	color: gold;
+}
+
+/*media responsive device*/
+@media (max-width: 575.98px) { 
+	 footer ,h3 ,h5{
+		font-size: 16px;
+		text-align: justify;
+	}
+	.media a {
+		font-size: 14px;
+		color: white;
+	}
+}
